@@ -3,10 +3,22 @@
     
 }
 
-.navigation li a{
-    text-decoration: none;
+.navigation li{
+    /*border: 1px blue solid;*/
+    margin: 1rem;
+    height: 1.2rem;
 }
 
-a:hover{
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Alata', sans-serif;
+    font-size: 2.2rem;
+    /*padding: 0.5rem;
+    height: 2.2rem;*/
+    
+}
+
+.navigation li a:hover{
     color: grey;
 }

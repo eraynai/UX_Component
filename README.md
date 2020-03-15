@@ -19,7 +19,8 @@ Code Journal
 
 #Navigation
 
-Created a nav tag to hold the navigation links
+Header tag created a nav tag to hold the navigation links
+
 
 #Images
 
@@ -28,3 +29,15 @@ Created an image folder to hold all the images on the site
 #CSS
 
 Created a link tag to hold the external style sheet
+
+#Color Palette
+
+FFF6ED - Background Color
+
+FAF1DF - Container Color
+
+788DAD - Text
+
+#Figma Prototype
+
+https://www.figma.com/file/4de7itHPeiXOdyFeSd1ZmB/UX-Component?node-id=1%3A4

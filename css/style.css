@@ -97,10 +97,21 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    padding: 3rem;
+    
 }
 
 .about {
     background: white;
+
+}
+
+.about h2{
+    font-size: 2rem;
+}
+
+.other {
+    background: lightblue;
 }
 
 /* Universal Styles

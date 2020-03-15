@@ -4,7 +4,7 @@ body {
     background-color: mistyrose;
     
   }
-  
+
 button {
     background: grey;
     border: 0;
@@ -15,6 +15,7 @@ img {
     max-width: 100%;
 }
 
+/* Header */
 .top {
     display: grid;
     grid-gap: 20px;
@@ -43,18 +44,64 @@ img {
 .sidebar {
     grid-area: sidebar;
     border: 3px red solid;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding: 50px;
     grid-gap: 20px;
+    align-items: start;
+    justify-content: center;
 }
 
 .sidebar > * {
     background: peru;
+    padding: 0.4rem;
+   
+}
+
+.sidebar h2{
+    font-size: 2rem;
+}
+
+.sidebar p{
+    font-size: 1.5rem;
+}
+
+/*Navigation*/
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 2rem 0;
+
+    
     
 }
 
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
 
+.dropdown {
+    display: none;
+}
 
+/*Content*/
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.about {
+    background: white;
+}
 
 /* Universal Styles
 
